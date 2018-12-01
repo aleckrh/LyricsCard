@@ -1,0 +1,93 @@
+/*
+=========================================================
+* LyricsCard - v1.0.0
+=========================================================
+* Copyright 2018 Alejandro RH
+
+* Main Coded by Alejandro RH
+=========================================================
+*/
+@import url("https://fonts.googleapis.com/css?family=Nunito:400,700");
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Nunito', sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  margin: 0;
+}
+
+.box-music {
+  height: 800px;
+  width: 800px;
+  background-image: url("../img/02.jpg");
+  background-position: center center;
+  background-size: cover;
+  color: #fff;
+}
+
+.box-music-body {
+  height: 600px;
+  background: rgba(107, 118, 255, 0.3);
+  padding: 10px 0;
+  font-size: 28px;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.box-music-footer {
+  height: 200px;
+  background: rgba(107, 118, 255, 0.3);
+  padding: 10px 0;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+footer {
+  text-align: center;
+  color: #fff;
+}
+
+footer .credits {
+  padding: 10px 0;
+  font-size: 15px;
+}
+
+footer .credits a {
+  text-decoration: none;
+  color: #feffe0;
+  transition: all .3s;
+}
+
+footer .credits a:hover {
+  color: #c8e4fe;
+}
+
+footer .social {
+  padding: 10px 0;
+  font-size: 15px;
+}
+
+footer .social a {
+  margin-right: 10px;
+  text-decoration: none;
+  color: #feffe0;
+  transition: all .3s;
+}
+
+footer .social a:hover {
+  color: #c8e4fe;
+}
+
+.bg-primary {
+  background-color: #6b76ff !important;
+}

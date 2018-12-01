@@ -1,0 +1,27 @@
+{
+  "name": "lyricscard",
+  "version": "1.0.0",
+  "description": "Create cards using your favorite song lyrics",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/aleckrh"
+  },
+  "keywords": [
+    "card",
+    "lyrics",
+    "music",
+    "song"
+  ],
+  "author": "Alejandro RH",
+  "license": "MIT",
+  "devDependencies": {
+    "browser-sync": "^2.26.3",
+    "gulp": "^3.9.1",
+    "gulp-sass": "^4.0.2",
+    "run-sequence": "^2.2.1"
+  }
+}

@@ -1,0 +1,30 @@
+.box-music {
+  height: 800px;
+  width: 800px;
+  background-image: url("../img/02.jpg");
+  background-position: center center;
+  background-size: cover;
+  color: #fff;
+
+  &-body {
+    height: 600px;
+    background: rgba($bg-01, 0.3);
+    padding: 10px 0;
+    font-size: 28px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  &-footer {
+    height: 200px;
+    background: rgba($bg-01, .3);
+    padding: 10px 0;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+}

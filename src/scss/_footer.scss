@@ -1,0 +1,35 @@
+footer {
+  text-align: center;
+  color: #fff;
+
+  .credits {
+    padding: 10px 0;
+    font-size: 15px;
+
+    a {
+      text-decoration: none;
+      color: $bg-04;
+      transition: all .3s;
+
+      &:hover {
+        color: $bg-03;
+      }
+    }
+  }
+
+  .social {
+    padding: 10px 0;
+    font-size: 15px;
+
+    a {
+      margin-right: 10px;
+      text-decoration: none;
+      color: $bg-04;
+      transition: all .3s;
+
+      &:hover {
+        color: $bg-03;
+      }
+    }
+  }
+}
